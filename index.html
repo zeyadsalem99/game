@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falling Objects Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="game-wrapper">
+    <div class="top-panel">
+      <div class="stat">Score: <span id="score">0</span></div>
+      <div class="stat">Lives: <span id="lives">3</span></div>
+      <div class="stat">Time: <span id="time">45</span>s</div>
+    </div>
+
+    <h1>Catch The Good Stuff 🎮</h1>
+    <p class="subtitle">Catch ⭐ 💎 ❤️ and avoid 💣</p>
+
+    <div class="game-area" id="gameArea">
+      <div class="sky-shape shape-one"></div>
+      <div class="sky-shape shape-two"></div>
+
+      <div class="player" id="player">🧺</div>
+    </div>
+
+    <p class="message" id="message">Press Start to play</p>
+
+    <button class="start-btn" id="startBtn">Start Game</button>
+
+    <div class="mobile-controls">
+      <button class="control-btn" id="leftBtn">⬅️</button>
+      <button class="control-btn" id="rightBtn">➡️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
